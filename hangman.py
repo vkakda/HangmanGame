@@ -1,9 +1,9 @@
-#########################################################
-## File Name: hangman.py                               ##
-## Name - Vishal                                       ##
-## Description: Shri Ram Group of College Muzaffarnagar##
-##               - Hangman Game Project                ##
-#########################################################
+# ============================================================
+#  Hangman Game - Shri Ram Group of Colleges, Muzaffarnagar
+#  Author: Vishal
+#  File: hangman.py
+#  Description: A modern Hangman game using Pygame
+# ============================================================
 
 import pygame
 import random
@@ -14,7 +14,7 @@ pygame.init()
 # Window setup
 winWidth, winHeight = 700, 480
 win = pygame.display.set_mode((winWidth, winHeight), pygame.RESIZABLE)
-pygame.display.set_caption("Hangman Game - Shri Ram College")
+pygame.display.set_caption("Vishal's Hangman Game - Shri Ram College")
 
 # Colors
 DARK_BG = (58, 12, 163)
